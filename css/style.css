@@ -1,13 +1,26 @@
+@import url(http://fonts.googleapis.com/css?family=Lato);
+@import url(http://fonts.googleapis.com/css?family=Pinyon+Script);
 @font-face {
   font-family: 'streetwear';
   src: url("../fonts/Hipstelvetica.ttf"); }
+@font-face {
+  font-family: 'cylburn';
+  src: url("../fonts/Cylburn.otf"); }
+@font-face {
+  font-family: 'impregnable';
+  src: url("../fonts/impreg.ttf"); }
 body {
   background-color: white;
-  color: #000; }
+  color: #000;
+  font-family: 'Lato', sans-serif; }
 
 .intro {
   background: url(../img/bg.jpg) no-repeat center center fixed;
   background-size: cover; }
+
+.belle {
+  font-family: 'Pinyon Script', cursive;
+  text-transform: none; }
 
 .sc-player {
   padding-top: 4.5em; }

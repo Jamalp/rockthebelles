@@ -1,12 +1,19 @@
 @import "config.scss";
+@import url(http://fonts.googleapis.com/css?family=Lato);
+@import url(http://fonts.googleapis.com/css?family=Pinyon+Script);
 
 body {
     background-color: white;
     color: #000;
+    font-family: 'Lato', sans-serif;
 }
 .intro {
     background: url(../img/bg.jpg) no-repeat center center fixed;
     background-size: cover;
+}
+.belle {
+    font-family: 'Pinyon Script', cursive;
+    text-transform: none;
 }
 
 .sc-player {
