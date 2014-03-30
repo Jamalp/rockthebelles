@@ -22,9 +22,6 @@ body {
   font-family: 'Pinyon Script', cursive;
   text-transform: none; }
 
-.sc-player {
-  padding-top: 4.5em; }
-
 .content-section {
   padding-top: 50px; }
 
@@ -46,6 +43,7 @@ body {
 .vera-header {
   display: none;
   position: fixed;
+  color: black;
   top: 350px;
   left: 3em;
   font-family: 'streetwear';

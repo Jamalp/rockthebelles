@@ -28,3 +28,11 @@ $(document).scroll(function(){
         $(".vera-header").fadeOut();
     }
 });
+
+var black = $(function() {
+    $(".vera-header").css("color", "black");
+})
+
+var white = $(function() {
+    $(".vera-header").css("color", "white");
+})
