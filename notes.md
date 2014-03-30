@@ -1,0 +1,1 @@
+On scrolll, Vera name fade in and becomes fixed. On scroll out fadeout.

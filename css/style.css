@@ -1,0 +1,61 @@
+@font-face {
+  font-family: 'streetwear';
+  src: url("../fonts/Hipstelvetica.ttf"); }
+body {
+  background-color: white;
+  color: #000; }
+
+.intro {
+  background: url(../img/bg.jpg) no-repeat center center fixed;
+  background-size: cover; }
+
+.sc-player {
+  padding-top: 4.5em; }
+
+.content-section {
+  padding-top: 50px; }
+
+.biggie {
+  height: 640px; }
+
+.overlay {
+  background-color: rgba(27, 37, 49, 0.1);
+  background: url(data:;base64,iVBORw0KGgoAAAANSUhEUgAAAAIAAAACCAYAAABytg0kAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAABl0RVh0U29mdHdhcmUAUGFpbnQuTkVUIHYzLjUuNUmK/OAAAAATSURBVBhXY2RgYNgHxGAAYuwDAA78AjwwRoQYAAAAAElFTkSuQmCC) repeat scroll transparent\9;
+  /* ie fallback png background image */
+  background-size: cover;
+  z-index: 20;
+  color: white; }
+
+.center {
+  position: absolute;
+  left: 50%; }
+
+.vera-header {
+  display: none;
+  position: fixed;
+  top: 350px;
+  left: 3em;
+  font-family: 'streetwear';
+  font-size: 9em; }
+
+#biggie1 {
+  background: url("../img/biggie1.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  background-size: cover;
+  color: white; }
+
+#biggie2 {
+  background: url("../img/biggie2.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  background-size: cover;
+  color: black; }
+
+#biggie3 {
+  background: url("../img/biggie3.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  background-size: cover; }
+
+#biggie4 {
+  background: url("../img/biggie4.jpg") no-repeat center right fixed;
+  -webkit-background-size: cover;
+  background-size: cover; }
